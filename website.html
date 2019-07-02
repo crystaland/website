@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script
+            src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+        <title>:)</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Courgette|Leckerli+One|Playfair+Display" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <style>
+            body {
+              background-image: radial-gradient(circle, #f0f6ff, #8798b0);
+              background-size: cover;
+              margin: 0px;
+            }
+            @media (min-width:800px) {
+                .nav-wrapper {
+                  background: rgba(0, 0, 0, 0.4 );
+                  position: fixed;
+                  width: 100%;
+                }
+                .nav-elements {
+                  color:white;
+                  text-decoration: none;
+                  font-family: 'Playfair Display', serif;
+                }
+                .nav-brand {
+                  color: white;
+                  float: right;
+                  font-family: 'Leckerli One', cursive;
+                }
+                .maintextp1 {
+                  color: white;
+                  float: right;
+                  font-family: 'Leckerli One', cursive;
+                  margin-left: auto;
+                  width: 60%;
+                  margin-top: auto;
+                  font-size: 75px;
+                  position: relative;
+                  text-shadow: 2px 2px 4px #937cc2;
+                }
+                .textbottom {
+                  margin-top: 7%;
+                  padding: 10px;
+                  color: white;
+                  font-family: 'Playfair Display', serif;
+                  margin-left: 15%;
+                  margin-right: 15%;
+                  background-color: #7C7CB2;
+                }
+                .texttop {
+                  margin-top: 15%;
+                  padding: 10px;
+                  color: white;
+                  font-family: 'Leckerli One', cursive;
+                  margin-left: 30%;
+                  margin-right: 30%;
+                  font-size: 15px;
+                  background-color: #7C7CB2;
+                }
+                .textx{
+                  background-color: black;
+                }
+                .images{
+                  width:40%;
+                  margin-top: auto;
+                  box-shadow: 2px 2px 4px #ff9c9c;
+                  margin-bottom: 20px;
+                }
+                .column {
+                  float: left;
+                  width:20%;
+                  padding: 5px;
+                }
+                #cyberpunkimg{
+                  margin-left: 10px;
+                }
+            }
+            @media (max-width:800px) {
+              .nav-wrapper {
+                background: rgba(0, 0, 0, 0.4 );
+                position: fixed;
+                width: 100%;
+              }
+              .nav-elements {
+                color:white;
+                text-decoration: none;
+                font-family: 'Playfair Display', serif;
+              }
+              .nav-brand {
+                color: white;
+                float: right;
+                font-family: 'Leckerli One', cursive;
+              }
+              .maintextp1 {
+                color: white;
+                float: right;
+                font-family: 'Leckerli One', cursive;
+                margin-left: auto;
+                width: 60%;
+                margin-top: auto;
+                font-size: 45px;
+                text-shadow: 2px 2px 4px #ffa6f0;
+              }
+              .textbottom {
+                margin-top: 7%;
+                padding: 10px;
+                color: white;
+                font-family: 'Playfair Display', serif;
+                margin-left: 15%;
+                margin-right: 15%;
+                font-size: 15px;
+                background-color: #7C7CB2;
+              }
+              .texttop {
+                margin-top: 15%;
+                color: white;
+                font-family: 'Leckerli One', cursive;
+                padding: 10px;
+                margin-left: 20%;
+                font-size: 15px;
+                background-color: #7C7CB2;
+              }
+              .images{
+                height: 15%;
+                width:15%;
+                margin-top: auto;
+                margin-left: 40%;
+                box-shadow: 2px 2px 4px #ff9c9c;
+                margin-bottom: 20px;
+                float: left;
+              }
+              .column {
+                float: left;
+                padding: 5px;
+              }
+            }
+
+        </style>
+    </head>
+    <body class="body">
+        <nav class="navbar navbar-expand-lg navbar-dark nav-wrapper" id="navbar">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="true" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="website.html">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link nav-elements" href="https://self-publishingschool.com/">Writing</a>
+                    <a class="nav-item nav-link nav-elements" href="https://www.google.com/search?biw=1280&bih=610&tbm=isch&sa=1&ei=dX4aXcKbE4TbtAaFh4z4BQ&q=flower+drawing&oq=flower+drawing&gs_l=img.3..0l10.10229.15442..15796...5.0..1.182.3397.0j23......0....1..gws-wiz-img.....0..0i10j0i30j0i24j0i67.TgraMH_5hZI">Art</a>
+                    <a class="nav-item nav-link nav-elements" href="https://www.google.com">About</a>
+                    <a class="nav-item nav-link nav-elements" href="https://www.google.com/gmail/about/#">Contact</a>
+                </div>
+            </div>
+            <a class="navbar-brand nav-brand" href="#">Crystal</a>
+        </nav>
+        <ul id="slide-out" class="sidenav">
+        <li><div class="user-view">
+            <div class="background nav-wrapper">
+            </div>
+            <a href="#user"><img class="circle" src="yinyang.png"></a>
+            <a href="#name"><span class="white-text name">Crystal</span></a>
+            <a href="#email"><span class="white-text email">lovepinkhamster@gmail.com</span></a>
+            </div></li>
+            <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
+            <li><a href="#!">Second Link</a></li>
+            <li><div class="divider"></div></li>
+            <li><a class="subheader">Subheader</a></li>
+            <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+        </ul>
+        <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons"></i></a>
+        <div id = textm>
+          <p class = "texttop" id = "text2">
+            "An apple a day keeps anyone away when you throw it hard enough."
+          </p>
+          <br/>
+          <h1 class="maintextp1" id="text">
+              Crystal
+          </h1>
+          <br/>
+          <p class="textbottom" id="text1">
+            I’m a 15 year old girl from cupertino california who likes to draw and dance in my free time.
+            I’ll be attending the eleventh grade in Homestead this fall. I’m looking forward to this coming school year as an upperclassmen.
+            Currently I’m attending a GWC summer program to help me get started on coding.
+            <br/>
+            Likes: Reading scifi, fantasy, cyberpunk, and dystopian novels, drawing, world-building and what little I know of coding.
+            <br/>
+            Dislikes: Swimming, because I can’t stand the smell of chlorine.
+            </p>
+          </div>
+          <div class="row">
+            <div class="column">
+              <img id = "cyberpunkimg" src="cyberpunk.jpg" alt="Snow" class="images">
+            </div>
+            <div class="column">
+              <img src="scifi.jpg" alt="Forest" class="images">
+            </div>
+            <div class="column">
+              <img src="scifi2.jpg" alt="Mountains"  class="images">
+            </div>
+            <div class="column">
+              <img src="scifi3.png" alt="Mountains"  class="images">
+            </div>
+            <div class="column">
+              <img id ="fantasyimg" src="fantasy.jpg" alt="Mountains"  class="images">
+            </div>
+          </div>
+         <script>
+             $("#navbar").css("top","-100px");
+             $("#navbar").css("opacity","0");
+             $("#navbar").animate({
+                 top: "0px",
+                 opacity: "1",
+             },2000);
+             $("#text").css("opacity","0");
+             $("#text").animate({
+                 top: "0px",
+                 opacity: "1",
+             },2000);
+             $("#text1").css("opacity","0");
+             $("#text1").animate({
+                 top: "0px",
+                 opacity: "1",
+             },2000);
+             $(document).ready(function(){
+               $('.sidenav').sidenav();
+             });
+             $("#text2").css("opacity","0");
+             $("#text2").animate({
+                 top: "0px",
+                 opacity: "1",
+             },2000);
+             $('.images').css("opacity","0");
+             $('.images').animate({
+                 top: "0px",
+                 opacity: "1",})
+         </script>
+    </body>
+</html>
